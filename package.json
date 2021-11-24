@@ -1,0 +1,49 @@
+{
+  "name": "new-form",
+  "version": "0.1.0",
+  "homepage": "https://gacc.nifc.gov/gbcc/predictive/7daycompare/upload-form/",
+  "private": true,
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.30.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.30.0",
+    "@aws-sdk/client-lambda": "^3.42.0",
+    "@aws-sdk/client-s3": "^3.30.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.30.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "amazon-cognito-identity-js": "^5.1.0",
+    "aws-amplify": "^4.2.9",
+    "axios": "^0.21.4",
+    "bootstrap": "5.1.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
