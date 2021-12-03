@@ -98,7 +98,8 @@ const uploadFile = async(event, file) => {
           // Key: isText ? 'forecastText.json' : newName,
           // Content of the new object.
           // Content of the new object.
-          Body: 'test'
+          // Body: 'test'
+          Body: file
         }
 
 
